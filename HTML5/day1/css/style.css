@@ -48,7 +48,7 @@ header>.container>nav>a.active{
   height: 267px;
   width: 1920px;
   position: relative;
-  padding-top: -30px;
+  top: 0;
   left: 50%;
   margin-left: -960px;
 }
