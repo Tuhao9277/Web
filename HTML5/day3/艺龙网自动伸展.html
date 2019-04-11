@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css"> 
+        ul{
+            list-style: none;
+            width: 1200px;
+            height: 260px;
+            margin: 0 auto;
+            overflow: hidden;
+            
+        }
+        li{
+            float: left;
+            width: 133px;
+            height: 260px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: width .5s;
+        }
+        li:hover{
+            width: 300px;
+        }
+        .mask{
+            position: absolute;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, .3);
+        }
+        .mask h4{
+            color: white;
+            display: block;
+            position: relative;
+            width: 30px;
+            font-size: 30px;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+        .pic{
+            width: 100%;
+            height: 100%;
+        }
+        .pic_1{
+            background: url('img/m1.jpg') no-repeat center 0;
+        }
+        .pic_2{
+            background: url('img/m2.jpg') no-repeat center 0;
+        }
+        .pic_3{
+            background: url('img/m3.jpg') no-repeat center 0;
+        }
+        .pic_4{
+            background: url('img/m4.jpg') no-repeat center 0;
+        }
+        .pic_5{
+            background: url('img/m5.jpg') no-repeat center 0;
+        }
+        .pic_6{
+            background: url('img/m6.jpg') no-repeat center 0;
+        }
+        .pic_7{
+            background: url('img/m7.jpg') no-repeat center 0;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+       <li>
+           <div class="mask">
+               <h4>园林酒店</h4> 
+            </div>
+               <div class="pic pic_1"></div>
+          
+       </li>
+       <li>
+           <div class="mask">
+               <h4>情侣酒店</h4>
+            </div>
+               <div class="pic pic_2"></div>
+           
+       </li>
+       <li>
+           <div class="mask">
+               <h4>设计师酒店</h4>
+            </div> <div class="pic pic_3"></div>
+           
+       </li>
+       <li>
+           <div class="mask">
+               <h4>青年旅社</h4>
+            </div>
+                <div class="pic pic_4"></div>
+           
+       </li>
+       <li>
+           <div class="mask">
+               <h4>特色客栈</h4>
+            </div>
+            
+            <div class="pic pic_5"></div>
+           
+       </li>
+       <li>
+           <div class="mask">
+               <h4>海盗酒店</h4>
+            </div>
+               <div class="pic pic_6"></div>
+           
+       </li>
+       <li>
+           <div class="mask">
+               <h4>海边温泉</h4>
+            </div>
+               <div class="pic pic_7"></div>
+          
+       </li>
+    </ul>
+</body>
+</html>
