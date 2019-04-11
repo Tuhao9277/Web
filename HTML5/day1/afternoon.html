@@ -26,10 +26,38 @@
         <dd>A2</dd>
         <dd>A3</dd>
     </dl>
-    <img src="img/IMG_1136.JPG" title="鼠标悬停的提示" alt="图片不存在时给出的提示" srcset="">
+    <img src="img/IMG_1136.JPG" width="300px" title="鼠标悬停的提示" alt="图片不存在时给出的提示" srcset="">
     img的alt与title有利于搜索引擎的优化 （SEO）
     <a href="https://www.baidu.com">baidu</a>
     <a href="index.html">首页</a>
-    zhexuejia
+    <!-- cellspacing 单元格间距
+        cellpadding 内容与边框间距
+        align  水平对齐方式 给表格设置将在页面中居中
+                            tr则表格内容整体居中
+                            td 某个格子居中
+        valign  垂直对齐方式 对table无效，tr是这一行内容的对齐方式，
+        属性值：top middle bottom       td是单元格内容的对齐方式
+        跟谁合并，将谁删掉，上一个部分 设置colspan rowspan
+        col 列
+        row 行
+     -->
+    <table border="1" width="300px" height="300px" cellspacing="0">
+        <caption>大标题</caption>
+        <tr>
+            <th>11</th>
+            <th>22</th>
+            <th>33</th>
+        </tr>
+        <tr >
+            <td colspan="2">1</td>
+           
+            <td rowspan="2">3</td>
+        </tr>
+        <tr >
+            <td>1</td>
+            <td>2</td>
+       
+        </tr>
+    </table>
 </body>
 </html>
