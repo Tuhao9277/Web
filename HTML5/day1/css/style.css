@@ -1,7 +1,5 @@
 body{
-   
-    font-size: 14px;
-    color: #666;
+    font: 14px "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu; 
 }
 body,p,ul,dl,dd{
     padding: 0;
@@ -18,11 +16,12 @@ li{
 }
 header{
     background-color: #232323;
-    height: 62px;
+    height: 63px;
 }
 header>.container>a{
     display: block;
     float: left;
+    height: 63px;
 }
 header>.container>nav{
     float: right;
@@ -32,9 +31,9 @@ header>.container>nav>a{
     color: #FFF;
     display: block;
     float: left;
-    line-height: 62px;
+    line-height: 63px;
     padding: 0 9px;
-    height: 62px;
+    height: 63px;
     text-align: center;
     background: url('http://1000phone.com/img/qf_nav_bg.png') right no-repeat ;
 }
@@ -45,7 +44,7 @@ header>.container>nav>a.active{
     -moz-transition: background 0.5s ;
 }   
 .banner{
-  height: 267px;
+  height: 420px;
   width: 1920px;
   position: relative;
   top: 0;
@@ -54,7 +53,7 @@ header>.container>nav>a.active{
 }
 .banner>img{
     border: none;
-    vertical-align: top;
+    vertical-align: bottom;
 }
 .talent_link_list{
     height: 44px;
@@ -80,10 +79,99 @@ header>.container>nav>a.active{
 .chh_base{
     margin: 0 auto;
 }
+.article{
+
+    height: 350px;
+    background: #e0e0e0;
+}
+
 .main{
     width: 1012px;
     margin: 0 auto;
 }
+.main_top{
+    height: 350px;
+}
+
+.subtitle{
+    color:#546c7d;
+    display: block;
+    margin: 20px 0;
+    font-style: normal;
+    font-size: 15px;
+}
+.main_bottom{
+    height: 300px;
+}
+.main_top li{
+ 
+    padding-top: 45px;
+    float: left;
+    text-align: center;
+}
+.main_top ul li i{
+    margin: 0 auto;
+    height: 100px;
+    display: block;
+    background: url('../img/qf_list_bg.png') no-repeat;
+    
+}
+.main_top_li1{
+
+    text-align: center;
+    width: 250px;
+    border-right: 1px solid  #dde6f0;
+}
+.main_top_li1>p{
+    color: #252e3b;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.main_top_i1{
+    width: 53px; 
+    background-position: 0 0;
+}
+.article li .main_top_i2{
+    width: 64px; 
+    background-position: -98px 0;
+}
+.article li .main_top_i3{
+    width: 126px; 
+    background-position: -280px 0;
+}
+.article li .main_top_i4{
+    width: 87px; 
+    background-position: -413px 0;
+}
+.main_top_li1 p{
+    margin-top: 10px;
+}
+.main_top_li2{
+    width: 250px;
+    border-right: 1px solid  #dde6f0;
+}
+.main_top_li3{
+    width: 250px;
+    border-right: 1px solid  #dde6f0;
+}
+.main_top_li4{
+    width: 250px;
+   
+}
+.content{
+    line-height: 18px;
+    color: #a3bccd;
+}
+.content>li{
+   
+    text-align: center;
+    padding-top: 0;
+}
+
+.main_top>.main>ul{
+    padding-top: 35px;
+}
+
 .para{
     line-height: 28px;
     text-indent: 2em;
@@ -119,6 +207,16 @@ header>.container>nav>a.active{
     background: #222;
     font-size: 12px;
 }
+.main_bottom{
+    margin-top: 28px;
+}
+.main_bottom aside{
+    width: 656px;
+    height: 232px;
+    float: left;
+    border-right: 1px solid #dcdedf;
+}
+
 .bottom_left{
     width: 493px;
     height: 169px;
@@ -127,14 +225,123 @@ header>.container>nav>a.active{
     background: url('http://1000phone.com/img/qf_bot_line.png') right no-repeat;
     float: left;
 }
+
+aside .ad{
+    float: left;
+}
+aside dl{
+    float: left;
+    display: block;
+    width: 320px;
+   
+    padding-left: 20px;
+   
+}
+aside dl dt{
+    line-height: 30px;
+    font-weight: normal;
+    color: #000;
+  
+    
+    font-size: 20px;
+}
+aside dl dd{
+    font-size: 18px;
+}
+.news{
+    padding-top: 10px;
+}
+.news li{
+    background: url('http://1000phone.com/img/news_jt.png') no-repeat left center ;
+    padding-left: 13px;
+}
+.subdt{
+    line-height: 30px;
+    color: #000;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.small{
+    color: #999;
+    line-height: 20px;
+    font-size: 12px;
+    text-indent: 2em;
+   
+    border-bottom: 1px dashed #ccc; 
+}
+aside dl dd ul li {
+    
+    color: #000;
+    font-size: 16px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  
+}
+
+
+article{
+    color: #666;
+    width: 345px;
+    float: right; overflow: hidden;
+}
+article i{
+    display: block;
+    height: 25px;
+    margin: 20px 0 22px 0px;
+    background: url('../img/qf_list_bg.png') no-repeat;
+    background-position: -32px -240px;
+}
+article h2{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    line-height: 30px;
+    font-weight: normal;
+}
+article .main-number{
+    font-size: 24px;
+    padding-bottom: 10px;
+    
+}
+.quest{
+    line-height: 25px;
+    
+}
 .bottom_left_li{
     float: left;
     padding: 0 30px 0 10px;
+}
+.bottom_left_li li{
+    line-height: 20px;
+    color: #666;
 }
 .bottom_left p{
     color: #fff;
     padding-bottom: 12px;
 }
+.bottom_center{
+    width:323px;
+    height: 212px;
+    float: left; 
+    background: url('http://1000phone.com/img/qf_map.png') center center no-repeat;
+}
+.bottom_right{
+    color: #464646;
+    width: 180px;
+    height: 215px;
+    text-align: center;
+    float: right;
+    background: url('http://1000phone.com/img/qf_bot_line.png') left 0 no-repeat;
+}
+.bottom_right_img{
+    
+    padding-top: 20px;
+}
+
 footer 
 { 
     font-size: 12px;
@@ -142,12 +349,12 @@ footer
     background: #000;
  }
 footer>.container { 
-   
+    
     height: 64px; 
     margin: 0 auto;
+    
  }
  footer>.container>p{
+    text-align: center;
      line-height: 64px;
-     text-align: center;
-   
- }      
+ }          

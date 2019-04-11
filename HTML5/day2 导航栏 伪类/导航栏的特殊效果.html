@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding:0;
+    }
+   
+    nav{
+        width: 800px;
+        height: 35px;
+        border-bottom: 1px solid #9c9c9c ;
+        margin: 120px auto;
+        padding: 0 38px;
+    }
+    nav a {
+     
+        display: inline-block;
+        color: #000;
+        text-decoration-line: none;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 10px;
+        text-align: center;
+        background: #F9F9F9;
+        border: 1px solid #DFDFDF;
+        border-bottom: none;
+        margin-top: 4px;
+    }
+    nav a:hover{
+        height: 31px;
+        padding-top: 4px;
+       border-color: #9c9c9c;
+       border-bottom: none;
+       margin-top: 0;
+    }
+    nav a:hover span{
+        font-weight: bold;
+        color: #949392;
+    }
+
+</style>
+<body>
+        <header>
+                <!--
+                    思路：
+                    a标签转为行内块元素
+                    设置高度行高等让文字居中,margin-right拉开距离
+                    设置边框，且下边框为空，并默认使其向上偏移4px
+                    a:hover时，
+                    高度大一下，内距向上偏移4px,达到一种放大的效果，
+                    改变边框颜色，与下底统一，文字加粗变色
+                 
+                -->
+                <nav>
+                    <a href="#">
+                        <span>Home</span>    
+                    </a>
+                    <a href="#">
+                        <span>Blog</span>   
+                    </a>
+                    <a href="#">
+                        <span>guestbook</span>
+                    </a>
+                    <a href="#">
+                    <span>Pickbar</span>         
+                    </a>
+                </nav>
+            </header>
+</body>
+</html>

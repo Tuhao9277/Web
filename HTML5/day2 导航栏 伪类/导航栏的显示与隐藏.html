@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding:0;
+    }
+    em{
+        display: none;
+        font-style: normal;
+    }
+    nav{
+        width: 800px;
+        height: 40px;
+        border-bottom: 8px solid #E13B19 ;
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+    nav a{
+        text-decoration-line: none;
+        float: left;
+        height: 40px;
+        width: 100px;
+        background: #DEDEDE;
+        margin-right: 1px;
+        text-align: center;
+        line-height: 40px;
+    }
+    nav a span{
+        font-size: 20px;
+        color: #747474;
+        font-weight: bold;
+    }
+    nav a em{
+        color: #fff;
+        font-size: 12px;
+    }
+    nav a:hover{
+        background: #E13B19;
+    }
+    nav a:hover span{
+        display: none;
+    }
+    nav a:hover em{
+        display: block;
+    }
+
+    
+</style>
+<body>
+    <header>
+        <!--
+            
+            思路：中英文都用分别的标签写入页面中，给中文设置隐藏，display:none;
+            hover的时候显示中文 display: block; 隐藏英文:display:none;
+            a标签左浮动，设置高度，行高，使其居中，
+
+        -->
+        <nav>
+            <a href="#">
+                <span>Home</span>   
+                <em>首页</em>   
+            </a>
+            <a href="#">
+                <span>Blog</span>   
+                <em>博客</em>    
+            </a>
+            <a href="#">
+                <span>guestbook</span>
+                <em>看看</em>
+            </a>
+            <a href="#">
+            <span>Pickbar</span>         
+            <em>图库</em>
+            </a>
+        </nav>
+    </header>
+</body>
+
+</html>
